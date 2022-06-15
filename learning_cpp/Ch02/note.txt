@@ -1,0 +1,8 @@
+basic data type
+    int
+    char = 'A'
+    string = "well"
+    float
+    double    //more commonly used
+    long double
+    bool = true;

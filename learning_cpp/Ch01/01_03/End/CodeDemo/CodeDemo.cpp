@@ -4,9 +4,11 @@
 
 #include <iostream>
 
-using namespace std;
+using namespace std;  	//
 
 int main(){
+	// indentation is not required, but required.
 	cout << "Hi There!" << endl;
-	return(0);
+	std::cout << "Hello There" << std::endl;	//if not using namespace std.
+	return(0);   // () is optional, but good to use it. 
 }
