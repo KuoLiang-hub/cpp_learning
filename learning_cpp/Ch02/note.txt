@@ -6,3 +6,8 @@ basic data type
     double    //more commonly used
     long double
     bool = true;
+
+pointers
+    reference to variable
+
+    
