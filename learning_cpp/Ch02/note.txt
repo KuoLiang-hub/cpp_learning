@@ -1,7 +1,7 @@
 basic data type
     int = 123, -5, 0x3A, 0b1100, 23U
     char = 'A', '\n'
-    
+
     string = "well"
     float = 23.0f
     double    //more commonly used
@@ -11,3 +11,14 @@ basic data type
 pointers
     reference to variable
 
+Expressions
+arithmetic
+    + - * / % 
+bitwise
+    & | ~ ^
+Logical
+    && || !
+relational
+    == != > <=
+pointer
+    * & ->
