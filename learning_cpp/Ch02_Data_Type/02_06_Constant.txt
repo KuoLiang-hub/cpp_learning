@@ -1,0 +1,15 @@
+Constant are identifiers with values that will NOT change during execution.
+
+useful as parameters in code.
+eg. set size of screen, or buffer fr memory.
+it can be implemented with
+	derectives or
+	variables
+
+const Qualifier
+	used in a regular declaration
+	Scope encapsulation is enforced
+	const is NOT the same in C and C++
+		
+
+
