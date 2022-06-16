@@ -1,7 +1,9 @@
 // Learning C++ 
 // Exercise 03_02
 // Classes, by Eduardo Corpeño 
-
+/*
+    similar to python and java class.
+*/
 #include <iostream>
 #include <string>
 
@@ -9,9 +11,11 @@ using namespace std;
 
 enum cow_purpose { dairy, meat, hide, pet };
 
+//by default, class attribute are private.
 class cow{
 public:
     cow(string name_i, int age_i, unsigned char purpose_i){
+        //constructor 
         name = name_i;
         age = age_i;
         purpose = purpose_i;

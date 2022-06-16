@@ -30,6 +30,7 @@ int main(){
     cout << "Celsius   : " << celsius << endl;      //0 because (5/9) is 0, its an int.
 
     celsius = ((float)5 / 9.0) * (fahrenheit - 32);
+    // or just use (5.0 / 9) to convert it implicitly
 
     cout << endl;
     cout << "Fahrenheit: " << fahrenheit << endl;   //100
