@@ -1,0 +1,27 @@
+reference is special data type.
+it's alias for existing variables.
+use reference
+	type& ref_name = var_name;
+	int& my_ref = my_int;
+
+no need to dereference ref, life pointers.
+reference is not a pointer,
+reference is not a object.
+reference doesn't have address.
+	no arrays of references
+	no pointer to reference
+	no reference to reference.
+
+difference between pointers & references:
+	pointers						references
+	initialization is optional 		must be initialized at declaration.
+	can point to different objects	can't reference a 2nd object
+	can be void and NULL			fix data type and object.
+	Multiple level of indirection	one level of indirection
+	must be dereferenced			no need for dereferencing.
+
+application.
+	passing parameters by reference.
+	avoid copying large objects as function parameters.
+	avoid copying large objects in for loops
+	
