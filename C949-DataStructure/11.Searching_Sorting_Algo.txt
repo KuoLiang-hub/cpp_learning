@@ -25,3 +25,10 @@ i=4
 runtime : n(n-1)/2 , O(n^2)
 
 
+11.12 - Shell sort
+	i + gap value
+	gap value determins how many sub lists. k = 2, means 2 lists.
+
+	
+
+
