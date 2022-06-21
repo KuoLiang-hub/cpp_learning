@@ -12,7 +12,7 @@ i=1,j=0
 	[5, 3, 1, 4, 8] =>
 	[3, 5, 1, 4, 8] =>
 i=2,
-	j=1
+	j=12
 	[3, 1, 5, 4, 8] =>
 	j=0
 	[1, 3, 5, 4, 8] =>
@@ -29,6 +29,7 @@ runtime : n(n-1)/2 , O(n^2)
 	i + gap value
 	gap value determins how many sub lists. k = 2, means 2 lists.
 
+11.15 quick sourt
+	2 partition
 	
-
 
