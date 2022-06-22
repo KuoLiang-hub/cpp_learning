@@ -30,9 +30,19 @@ runtime : n(n-1)/2 , O(n^2)
 	gap value determins how many sub lists. k = 2, means 2 lists.
 
 11.15 quick sourt
-	2 partition
+	partition()
+		runt time : O(N)
 	
-	comparison: N * log2(N)
-	eg. 1024 element, will have 1024 * log2(1024) = 10240 
-	runtime : (N+1)N/2 , O(N^2)
+	quick_sort()
 
+		quick case:
+		runtime: O(N log(N))
+		comparison: N * log2(N)
+		eg. 1024 element, will have 1024 * log2(1024) = 10240 
+
+		worst case: 
+		level: N-1 
+		runtime : (N+1)N/2 , O(N^2)
+		quick sout function called: 1 + 2(N -1) = 2N - 1
+
+11.18 Merge sort
