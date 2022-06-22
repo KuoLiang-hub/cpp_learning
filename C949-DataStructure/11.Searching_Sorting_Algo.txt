@@ -32,4 +32,7 @@ runtime : n(n-1)/2 , O(n^2)
 11.15 quick sourt
 	2 partition
 	
+	comparison: N * log2(N)
+	eg. 1024 element, will have 1024 * log2(1024) = 10240 
+	runtime : (N+1)N/2 , O(N^2)
 
