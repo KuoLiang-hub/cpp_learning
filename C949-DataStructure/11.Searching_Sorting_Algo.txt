@@ -125,4 +125,27 @@ Radix sort 			O(N)		O(N)			O(N)
 11.27 Java sorting.
 	Arrays.sort(numbers);
 	Collections.sort(names);
-	
+	// Compareble<T> interface
+	class InventoryItem implements Comparable<InventoryItem> {
+		public string name;
+
+		@override
+		public int compareTo(InventoryItem other) {
+			return name.compareTo(ohter.name)
+		}
+	}
+
+	//Comparator<T> interface
+	class InventoryItemNameComparer implements Comparator<InventoryItem> {
+		public int compare(InventoryItem item1, InventoryItem item2) {
+			return item1.name.compareTo(item2.name)
+		}
+	}
+	Comparator<InventoryItem> comparator = new InventoryItemNameComparer()
+	Collections.sort(list, comparator)
+
+11.28 Bubble sort
+	swap adjacent elements
+	runtime : alwyas O(N^2) best case and worst case.
+
+11.29 Suickselect
