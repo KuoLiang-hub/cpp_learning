@@ -61,3 +61,8 @@ runtime : n(n-1)/2 , O(n^2)
 
 
 11.22 Radix sort
+	designed for integers
+	10 buckets 0 - 9, could be based on 1's digit, 10's 100's....
+	runtime:	O(N)
+	space: O(N)
+	
