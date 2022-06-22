@@ -149,3 +149,9 @@ Radix sort 			O(N)		O(N)			O(N)
 	runtime : alwyas O(N^2) best case and worst case.
 
 11.29 Suickselect
+	selects the Kth smallest element in a list.
+	runtime: 
+		best & agerage O(N)
+		worst case O(N^2)
+
+
