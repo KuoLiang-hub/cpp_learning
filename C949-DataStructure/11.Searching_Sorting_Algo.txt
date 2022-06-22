@@ -75,3 +75,54 @@ Quicksort 			O(N log(N))							yes
 Merge sort 			O(N log(N))							yes
 Heap sort 			O(N log(N))							yes
 Radix sort 			O(N)								yes
+
+Radix sort is NOT comparsion sorting algorithm.
+
+sorting algorithm, 	Best Case, 	average case, 	Worst case
+Quicksort 			O(Nlog(N))	O(Nlog(N)) 		O(N^2)
+Merge sort 			O(Nlog(N))	O(Nlog(N))		O(Nlog(N))	
+Heap sort 			O(N)		O(Nlog(N)) 		O(Nlog(N)) 
+Radix sort 			O(N)		O(N)			O(N)
+
+
+11.26 sorting with different operators.
+	a_list = sorted(b_lst)	# return a new list.
+	b_lst.sort()	# modify list, no return
+
+	# decending order
+	a_list = sorted(b_lst, reverse = True)
+	b_lit.sort(reverse = True)
+
+	# sort ignore case
+	case_insensitve = sorted(list1, key = str.lower)
+
+	# custom key function
+	def key_is_name(element):
+		return element[0]
+	def key_is_id(element):
+		return element[1]
+
+	class_lst = [("rob", 1234), ("Amy", 2345), ("Jen", 2483)]
+
+	namesSort = sorted(class_lst, key = key_is_name)
+	print(namesSort) #	
+	out:	[("Amy", 2345), ("Jen", 2483), ("rob", 1234)]
+
+	idSort = sorted(class_lst, key = key_is_id)
+	print(idSort) 	
+	out:	[("rob", 1234), ("Amy", 2345), ("Jen", 2483)]
+
+	# itemgetter() takes int returns function.
+	import operator
+	class_list = [("rob", 1234), ("Amy", 2345), ("Jen", 2483)]
+	name_result = sorted(class_list, key = operator.itemgetter(0))
+	id_result = sorted(class_list, key = operator.itemgetter(1))
+	print(name_result) 	
+	out:	[("Amy", 2345), ("Jen", 2483), ("rob", 1234)]
+	print(id_result) 	
+	out:	[("rob", 1234), ("Amy", 2345), ("Jen", 2483)]
+
+11.27 Java sorting.
+	Arrays.sort(numbers);
+	Collections.sort(names);
+	
