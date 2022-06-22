@@ -67,4 +67,11 @@ runtime : n(n-1)/2 , O(n^2)
 	space: O(N)
 
 11.25 Overview of fast sorting algorithms
-	
+sorting algorithm, 	average case runtime complexity, 	Fast?
+Selection sort 		O(N^2)								No
+Insertion sort 		O(N^2)								No
+Shell sort 			O(N^1.5)							No
+Quicksort 			O(N log(N))							yes
+Merge sort 			O(N log(N))							yes
+Heap sort 			O(N log(N))							yes
+Radix sort 			O(N)								yes
