@@ -1,0 +1,4 @@
+12.List, Stacks, Queues
+12.1 Singly-linked Lists
+	type of "positional list" a list where elements contains pointers to the next or previous elements on list.
+	head (first node) & tail(last node)
