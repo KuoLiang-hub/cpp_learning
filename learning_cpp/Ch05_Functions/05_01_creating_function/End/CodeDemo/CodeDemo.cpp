@@ -2,6 +2,9 @@
 // Exercise 05_01
 // Creating Functions, by Eduardo Corpeño 
 
+// learn with records.cpp & records.h
+
+
 #include <iostream>
 #include <vector>
 #include "records.h"

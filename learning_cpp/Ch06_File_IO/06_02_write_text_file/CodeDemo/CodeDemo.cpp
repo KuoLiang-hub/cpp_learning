@@ -8,11 +8,11 @@
 
 using namespace std;
 
-ofstream outFile;
+ofstream outFile;   //out file stream.
 float a = 4.333f, b = 5.302f;
 
 int main(){
-    outFile.open("calculations.txt");
+    outFile.open("calculations.txt");   // it will write over the existing text unless append mode
     if (outFile.fail())
         cout << endl << "Couldn't open the file!" << endl;
     else{

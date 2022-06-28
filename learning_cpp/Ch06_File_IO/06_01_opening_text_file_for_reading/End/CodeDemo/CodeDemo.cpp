@@ -4,21 +4,21 @@
 
 #include <iostream>
 #include <string>
-#include <fstream>
+#include <fstream>  // include fstream for reading.
 
 using namespace std;
 
-ifstream inFile;
+ifstream inFile;    // ifstream is similar to cin object
 string str;
 int number;
 char letter;
 
 int main(){
     inFile.open("people.txt");
-    if (inFile.fail())
+    if (inFile.fail())  //check if open function fail.
         cout << endl << "File not found!" << endl;
     else{
-        while (!inFile.eof()){
+        while (!inFile.eof()){  //eof = end of file
             getline(inFile, str);
             cout << str << ", ";
             getline(inFile,str);
@@ -28,7 +28,7 @@ int main(){
             letter = str[0];
             cout << letter << endl;
         }
-        inFile.close();
+        inFile.close(); // always close the file when no longer needed.
     }
     return (0);
 }
